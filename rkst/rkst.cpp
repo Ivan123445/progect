@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "ru");
+	setlocale(LC_ALL, "ru");                                      
 
 	int a, b;
 
 	cout << "Введите размер массива: " << endl;
 	
-	while (1 == 1)
+	while (1 == 1)                                           //защита от дурака
 	{
 		cin >> a >> b;
 		if (a > 0 && b > 0)
@@ -22,7 +22,7 @@ int main()
 		}
 
 	}
-	int** oldarr = new int* [a];
+	int** oldarr = new int* [a];                              //инициализация массива
 	int** newarr = new int* [a];
 	int* buf;
 
