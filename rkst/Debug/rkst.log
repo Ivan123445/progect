@@ -1,0 +1,3 @@
+﻿  rkst.cpp
+C:\Users\anivi\source\repos\rkst\rkst\rkst.cpp(27): warning C4101: buf: неиспользованная локальная переменная
+  rkst.vcxproj -> C:\Users\anivi\source\repos\rkst\Debug\rkst.exe
